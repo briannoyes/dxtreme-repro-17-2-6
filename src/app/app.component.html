@@ -1,0 +1,6 @@
+<dx-data-grid [dataSource]="users" [columnAutoWidth]="true" [showColumnLines]="true" [showRowLines]="true" [selection]="{ mode: 'single' }"
+  [editing]="{ mode: 'cell', allowUpdating: true }">
+  <dxi-column caption="First Name" dataField="firstName" dataType="string"></dxi-column>
+  <dxi-column caption="Last Name" dataField="lastName" dataType="string"></dxi-column>
+  <dxi-column caption="Email" dataField="email" dataType="string"></dxi-column>
+</dx-data-grid>
